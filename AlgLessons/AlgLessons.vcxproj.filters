@@ -13,10 +13,159 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Исходные файлы\chapture_2">
+      <UniqueIdentifier>{e1943397-080c-4c52-b921-08280cb824e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\chapture_3">
+      <UniqueIdentifier>{c4beb589-aa49-46f6-8e6d-d827d4ec76ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\chapture_4">
+      <UniqueIdentifier>{fed178b7-02e2-4dbf-a8f0-c38f8642ca0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\chapture_5">
+      <UniqueIdentifier>{bc9e4081-3ea4-465c-a017-79f4031a6176}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AlgLessons.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="Chapture2\Task1.cpp">
+      <Filter>Исходные файлы\chapture_2</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapture2\Task2.cpp">
+      <Filter>Исходные файлы\chapture_2</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapture2\Task3.cpp">
+      <Filter>Исходные файлы\chapture_2</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapture2\Task4.cpp">
+      <Filter>Исходные файлы\chapture_2</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapture2\Task5.cpp">
+      <Filter>Исходные файлы\chapture_2</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapture3\Task6.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapture3\Task7.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapture3\Task8.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapture3\Task9.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapture3\Task10.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapture4\Task11.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapture4\Task12.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapture4\Task13.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapture4\Task14.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapture4\Task15.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapture5\Task16.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapture5\Task17.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapture5\Task18.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapture5\Task19.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapture5\Task20.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Chapture2\Task1.h">
+      <Filter>Исходные файлы\chapture_2</Filter>
+    </ClInclude>
+    <ClInclude Include="Chapture2\Task2.h">
+      <Filter>Исходные файлы\chapture_2</Filter>
+    </ClInclude>
+    <ClInclude Include="Chapture2\Task3.h">
+      <Filter>Исходные файлы\chapture_2</Filter>
+    </ClInclude>
+    <ClInclude Include="Chapture2\Task4.h">
+      <Filter>Исходные файлы\chapture_2</Filter>
+    </ClInclude>
+    <ClInclude Include="Chapture2\Task5.h">
+      <Filter>Исходные файлы\chapture_2</Filter>
+    </ClInclude>
+    <ClInclude Include="Chapture2\Chapture2.h">
+      <Filter>Исходные файлы\chapture_2</Filter>
+    </ClInclude>
+    <ClInclude Include="Chaptures.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="Chapture3\Chapture3.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Chapture3\Task6.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Chapture3\Task7.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Chapture3\Task8.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Chapture3\Task9.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Chapture3\Task10.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Chapture4\Chapture4.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Chapture4\Task11.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Chapture4\Task12.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Chapture4\Task13.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Chapture4\Task14.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Chapture4\Task15.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Chapture5\Chapture5.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Chapture5\Task16.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Chapture5\Task17.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Chapture5\Task18.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Chapture5\Task19.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Chapture5\Task20.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
