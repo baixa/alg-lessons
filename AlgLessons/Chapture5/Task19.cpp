@@ -4,5 +4,5 @@
 
 int runTask19()
 {
-
+	return 0;
 }

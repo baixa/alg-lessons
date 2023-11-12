@@ -15,7 +15,6 @@ int main()
         /// Отображаем документацию и базовое меню
         /// 
         system("CLS");
-
         std::cout << "Программа содержит решения задач, доступных в конце 2-5 глав учебника по С++. " <<
             "Ниже приведен список задач, решения которых доступны к просмотру. Рядом с программой доступен цифровой код, который необходимо ввести. " <<
             "После ввода будет отображена дополнительная информация по задаче с предложением запуска решения по ней. " <<
@@ -53,72 +52,90 @@ int main()
         /// 
         if (std::find_if(input.begin(), input.end(), [](unsigned char c) { return !std::isdigit(c); }) == input.end()
             && stoi(input) >= MIN_TASK_NUMBER && stoi(input) <= MAX_TASK_NUMBER) {
-            while (input != "\\q") {
-                switch (stoi(input))
-                {
-                    case 1:
-                        runTask1();
-                        break;
-                    case 2:
-                        runTask2();
-                        break;
-                    case 3:
-                        runTask3();
-                        break;
-                    case 4:
-                        runTask4();
-                        break;
-                    case 5:
-                        runTask5();
-                        break;
-                    case 6:
-                        runTask6();
-                        break;
-                    case 7:
-                        runTask7();
-                        break;
-                    case 8:
-                        runTask8();
-                        break;
-                    case 9:
-                        runTask9();
-                        break;
-                    case 10:
-                        runTask10();
-                        break;
-                    case 11:
-                        runTask11();
-                        break;
-                    case 12:
-                        runTask12();
-                        break;
-                    case 13:
-                        runTask13();
-                        break;
-                    case 14:
-                        runTask14();
-                        break;
-                    case 15:
-                        runTask15();
-                        break;
-                    case 16:
-                        runTask16();
-                        break;
-                    case 17:
-                        runTask17();
-                        break;
-                    case 18:
-                        runTask18();
-                        break;
-                    case 19:
-                        runTask19();
-                        break;
-                    case 20:
-                        runTask20();
-                        break;
-                    default:
-                        break;
-                }
+            switch (stoi(input))
+            {
+                case 1:
+                    runTask1();
+                    input = "";
+                    break;
+                case 2:
+                    runTask2();
+                    input = "";
+                    break;
+                case 3:
+                    runTask3();
+                    input = "";
+                    break;
+                case 4:
+                    runTask4();
+                    input = "";
+                    break;
+                case 5:
+                    runTask5();
+                    input = "";
+                    break;
+                case 6:
+                    runTask6();
+                    input = "";
+                    break;
+                case 7:
+                    runTask7();
+                    input = "";
+                    break;
+                case 8:
+                    runTask8();
+                    input = "";
+                    break;
+                case 9:
+                    runTask9();
+                    input = "";
+                    break;
+                case 10:
+                    runTask10();
+                    input = "";
+                    break;
+                case 11:
+                    runTask11();
+                    input = "";
+                    break;
+                case 12:
+                    runTask12();
+                    input = "";
+                    break;
+                case 13:
+                    runTask13();
+                    input = "";
+                    break;
+                case 14:
+                    runTask14();
+                    input = "";
+                    break;
+                case 15:
+                    runTask15();
+                    input = "";
+                    break;
+                case 16:
+                    runTask16();
+                    input = "";
+                    break;
+                case 17:
+                    runTask17();
+                    input = "";
+                    break;
+                case 18:
+                    runTask18();
+                    input = "";
+                    break;
+                case 19:
+                    runTask19();
+                    input = "";
+                    break;
+                case 20:
+                    runTask20();
+                    input = "";
+                    break;
+                default:
+                    break;
             }
         }
     }
