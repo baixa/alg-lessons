@@ -1,10 +1,12 @@
 ﻿#include <iostream>
 #include <string>
 #include "Chaptures.h"
+#include <windows.h>
 
 int main()
 {
     system("chcp 1251");
+    ::SendMessage(::GetConsoleWindow(), WM_SYSKEYDOWN, VK_RETURN, 0x20000000);
 
     std::string input;
     const int MIN_TASK_NUMBER = 1;
@@ -56,87 +58,68 @@ int main()
             {
                 case 1:
                     runTask1();
-                    input = "";
                     break;
                 case 2:
                     runTask2();
-                    input = "";
                     break;
                 case 3:
                     runTask3();
-                    input = "";
                     break;
                 case 4:
                     runTask4();
-                    input = "";
                     break;
                 case 5:
                     runTask5();
-                    input = "";
                     break;
                 case 6:
                     runTask6();
-                    input = "";
                     break;
                 case 7:
                     runTask7();
-                    input = "";
                     break;
                 case 8:
                     runTask8();
-                    input = "";
                     break;
                 case 9:
                     runTask9();
-                    input = "";
                     break;
                 case 10:
                     runTask10();
-                    input = "";
                     break;
                 case 11:
                     runTask11();
-                    input = "";
                     break;
                 case 12:
                     runTask12();
-                    input = "";
                     break;
                 case 13:
                     runTask13();
-                    input = "";
                     break;
                 case 14:
                     runTask14();
-                    input = "";
                     break;
                 case 15:
                     runTask15();
-                    input = "";
                     break;
                 case 16:
                     runTask16();
-                    input = "";
                     break;
                 case 17:
                     runTask17();
-                    input = "";
                     break;
                 case 18:
                     runTask18();
-                    input = "";
                     break;
                 case 19:
                     runTask19();
-                    input = "";
                     break;
                 case 20:
                     runTask20();
-                    input = "";
                     break;
                 default:
                     break;
             }
+            input = "";
         }
     }
     system("CLS");
