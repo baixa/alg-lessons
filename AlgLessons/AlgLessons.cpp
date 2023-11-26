@@ -2,12 +2,12 @@
 #include <string>
 #include "Chaptures.h"
 #include <algorithm>
-// #include <windows.h> Временно удален по причине неработоспособности на ОС Linux
+#include <windows.h>
 
 int main()
 {
     system("chcp 1251");
-    // ::SendMessage(::GetConsoleWindow(), WM_SYSKEYDOWN, VK_RETURN, 0x20000000); Временно удален по причине неработоспособности на ОС Linux
+    ::SendMessage(::GetConsoleWindow(), WM_SYSKEYDOWN, VK_RETURN, 0x20000000);
 
     std::string input;
     const int MIN_TASK_NUMBER = 1;
