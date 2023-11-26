@@ -2,6 +2,7 @@
 #include <string>
 #include <format>
 #include "Task2.h"
+#include <algorithm>
 
 using namespace std;
 
