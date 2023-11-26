@@ -22,6 +22,7 @@ using namespace std;
 /// <returns>Код результата выполнения программы</returns>
 int runTask11()
 {
+    system("chcp 1251");
     std::string input;
 
     while (input != "\\q") {
