@@ -2,6 +2,7 @@
 #include <string>
 #include <format>
 #include "Task7.h"
+#include <algorithm>
 
 using namespace std;
 
@@ -24,6 +25,7 @@ using namespace std;
 /// <returns>Код результата выполнения программы</returns>
 int runTask7()
 {
+    system("chcp 1251");
     std::string input;
 
     while (input != "\\q") {
