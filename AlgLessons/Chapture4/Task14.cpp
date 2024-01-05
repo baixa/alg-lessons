@@ -5,8 +5,6 @@
 
 using namespace std;
 
-int board[8][8];
-
 /// <summary>
 /// Запускает выполнение (Глава 4) Задача #14 (4.26)
 /// Заголовок: Восемь Ферзей
@@ -77,14 +75,8 @@ int runTask14()
                 system("CLS");
 
                 cout << "Результат работы программы: \n\n" << endl;
-                findQueenPlaceInVertical(0);
-                for (int i = 0; i < 8; ++i)
-                {
-                    for (int j = 0; j < 8; ++j) {
-                        cout << (board[i][j] ? "| # " : "| * ");
-                    }
-                    cout << "|" << endl;
-                }
+                
+                printEightQueensBoard();
 
                 cout << "\n\nДля выхода введите \\q" << endl;
                 cin >> input;
@@ -98,47 +90,65 @@ int runTask14()
 }
 
 /// <summary>
-/// Выполняет проверку на возможность размещения ферзя в ряду row и колонке column
+/// Выводит в консоль возможную расстановку 8 фигур "Ферзь"
 /// </summary>
-/// <param name="column">Номер колонки</param>
-/// <param name="row">Номер строки</param>
-/// <returns>1 - ферзь размещен, 0 - ферзя установить не удалось</returns>
-int isAvailableToPlaceQueen(int column, int row)
-{
-    for (int i = 0; i < column; ++i)
-    {
-        bool isRowOccured = board[i][row];
-        if (isRowOccured) { 
-            return 0; 
-        }
-        if (row - column + i >= 0 && board[i][row - column + i]) {
-            return 0;
-        }
-        if (row + column - i < 8 && board[i][row + column - i]) {
-            return 0;
-        }
-    }
-    return 1;
-}
+/// <returns>0 - успешно, -1 - не удалось выполнить расстановку</returns>
+int printEightQueensBoard() {
+    int boardRow[9] = { 0 };
+    int column = 1;
+    int isRowAvailable;
 
-/// <summary>
-/// Выполняет анализ шахматной доски на строке, номер которой соответствует параметру column,
-/// и помечает возможное расположение ферзя
-/// </summary>
-/// <param name="column">Номер строки для анализа</param>
-/// <returns>1 - ферзь размещен, 0 - ферзя установить не удалось</returns>
-int findQueenPlaceInVertical(int column)
-{
-    if (column == 8) return 1;
-    for (int j = 0; j < 8; ++j) {
-        if (isAvailableToPlaceQueen(column, j))
-        {
-            board[column][j] = 1;
-            if (findQueenPlaceInVertical(column + 1)) {
-                return 1;
+    while (1) {
+        if (boardRow[column] == 8) {
+            if (column > 1) {
+                boardRow[column] = 0;
+                column--;
+                continue;
             }
-            board[column][j] = 0;
+            else {
+                cout << "Выполнить расстановку фигур не удалось!" << endl;
+                return -1;
+            }
         }
+        else {
+            boardRow[column]++;
+        }
+
+        isRowAvailable = true;
+        for (int i = 1; i <= 7 && isRowAvailable; i++) {
+            for (int j = i + 1; j <= 8 && isRowAvailable; j++) {
+                if (boardRow[i] != 0 && boardRow[i] == boardRow[j]) {
+                    isRowAvailable = false;
+                }
+                if (boardRow[i] != 0 && boardRow[j] != 0 && abs(i - j) == abs(boardRow[i] - boardRow[j])) {
+                    isRowAvailable = false;
+                }
+            }
+        }
+
+        if (!isRowAvailable) {
+            continue;
+        }
+        if (column == 8) {
+            break;
+        }
+        ++column;
     }
+
+    for (int i = 1; i <= 8; i++) {
+        for (int k = 1; k <= 8; k++) {
+            cout << "+---";
+        }
+        cout << "+" << endl;
+        for (int j = 1; j <= 8; j++) {
+            cout << format("| {} ", boardRow[j] == i ? 'Q' : ' ');
+        }
+        cout << "|" << endl;
+    }
+    for (int k = 1; k <= 8; k++) {
+        cout << "+---";
+    }
+    cout << "+" << endl;
+
     return 0;
 }
