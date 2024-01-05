@@ -113,59 +113,59 @@
     <ClInclude Include="Chaptures.h">
       <Filter>Исходные файлы</Filter>
     </ClInclude>
-    <ClInclude Include="Chapture3\Chapture3.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
     <ClInclude Include="Chapture3\Task6.h">
-      <Filter>Файлы заголовков</Filter>
+      <Filter>Исходные файлы\chapture_3</Filter>
     </ClInclude>
     <ClInclude Include="Chapture3\Task7.h">
-      <Filter>Файлы заголовков</Filter>
+      <Filter>Исходные файлы\chapture_3</Filter>
     </ClInclude>
     <ClInclude Include="Chapture3\Task8.h">
-      <Filter>Файлы заголовков</Filter>
+      <Filter>Исходные файлы\chapture_3</Filter>
     </ClInclude>
     <ClInclude Include="Chapture3\Task9.h">
-      <Filter>Файлы заголовков</Filter>
+      <Filter>Исходные файлы\chapture_3</Filter>
     </ClInclude>
     <ClInclude Include="Chapture3\Task10.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
-    <ClInclude Include="Chapture4\Chapture4.h">
-      <Filter>Файлы заголовков</Filter>
+      <Filter>Исходные файлы\chapture_3</Filter>
     </ClInclude>
     <ClInclude Include="Chapture4\Task11.h">
-      <Filter>Файлы заголовков</Filter>
+      <Filter>Исходные файлы\chapture_4</Filter>
     </ClInclude>
     <ClInclude Include="Chapture4\Task12.h">
-      <Filter>Файлы заголовков</Filter>
+      <Filter>Исходные файлы\chapture_4</Filter>
     </ClInclude>
     <ClInclude Include="Chapture4\Task13.h">
-      <Filter>Файлы заголовков</Filter>
+      <Filter>Исходные файлы\chapture_4</Filter>
     </ClInclude>
     <ClInclude Include="Chapture4\Task14.h">
-      <Filter>Файлы заголовков</Filter>
+      <Filter>Исходные файлы\chapture_4</Filter>
     </ClInclude>
     <ClInclude Include="Chapture4\Task15.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
-    <ClInclude Include="Chapture5\Chapture5.h">
-      <Filter>Файлы заголовков</Filter>
+      <Filter>Исходные файлы\chapture_4</Filter>
     </ClInclude>
     <ClInclude Include="Chapture5\Task16.h">
-      <Filter>Файлы заголовков</Filter>
+      <Filter>Исходные файлы\chapture_5</Filter>
     </ClInclude>
     <ClInclude Include="Chapture5\Task17.h">
-      <Filter>Файлы заголовков</Filter>
+      <Filter>Исходные файлы\chapture_5</Filter>
     </ClInclude>
     <ClInclude Include="Chapture5\Task18.h">
-      <Filter>Файлы заголовков</Filter>
+      <Filter>Исходные файлы\chapture_5</Filter>
     </ClInclude>
     <ClInclude Include="Chapture5\Task19.h">
-      <Filter>Файлы заголовков</Filter>
+      <Filter>Исходные файлы\chapture_5</Filter>
     </ClInclude>
     <ClInclude Include="Chapture5\Task20.h">
-      <Filter>Файлы заголовков</Filter>
+      <Filter>Исходные файлы\chapture_5</Filter>
+    </ClInclude>
+    <ClInclude Include="Chapture5\Chapture5.h">
+      <Filter>Исходные файлы\chapture_5</Filter>
+    </ClInclude>
+    <ClInclude Include="Chapture4\Chapture4.h">
+      <Filter>Исходные файлы\chapture_4</Filter>
+    </ClInclude>
+    <ClInclude Include="Chapture3\Chapture3.h">
+      <Filter>Исходные файлы\chapture_3</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
