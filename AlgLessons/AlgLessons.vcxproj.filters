@@ -45,21 +45,6 @@
     <ClCompile Include="Chapture2\Task5.cpp">
       <Filter>Исходные файлы\chapture_2</Filter>
     </ClCompile>
-    <ClCompile Include="Chapture5\Task16.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
-    <ClCompile Include="Chapture5\Task17.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
-    <ClCompile Include="Chapture5\Task18.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
-    <ClCompile Include="Chapture5\Task19.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
-    <ClCompile Include="Chapture5\Task20.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
     <ClCompile Include="Chapture3\Task6.cpp">
       <Filter>Исходные файлы\chapture_3</Filter>
     </ClCompile>
@@ -89,6 +74,21 @@
     </ClCompile>
     <ClCompile Include="Chapture4\Task15.cpp">
       <Filter>Исходные файлы\chapture_4</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapture5\Task16.cpp">
+      <Filter>Исходные файлы\chapture_5</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapture5\Task17.cpp">
+      <Filter>Исходные файлы\chapture_5</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapture5\Task18.cpp">
+      <Filter>Исходные файлы\chapture_5</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapture5\Task19.cpp">
+      <Filter>Исходные файлы\chapture_5</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapture5\Task20.cpp">
+      <Filter>Исходные файлы\chapture_5</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
