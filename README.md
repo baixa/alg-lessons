@@ -42,7 +42,7 @@
 1. Клонировать проект себе на устройство
 
 ```sh
-	git clone https://github.com/baixa/alg-lessons
+git clone https://github.com/baixa/alg-lessons
 ```
 
 2. Открыть проект в IDE Visual Studio, дважды кликнув по файлу AlgLessons.sln или выбрав его в окне окрытия нового проекта
